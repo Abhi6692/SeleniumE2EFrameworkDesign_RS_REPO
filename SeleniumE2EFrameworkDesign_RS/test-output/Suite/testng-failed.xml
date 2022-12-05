@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="StandaloneTest_1(failed)">
+    <classes>
+      <class name="testPackage.Tests.StandaloneTest_1">
+        <methods>
+          <include name="testMethod"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- testPackage.Tests.StandaloneTest_1 -->
+    </classes>
+  </test> <!-- StandaloneTest_1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

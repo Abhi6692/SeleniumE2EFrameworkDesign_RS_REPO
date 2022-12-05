@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<!-- parallel="methods" -->
+
+<listeners>
+
+<listener class-name="testPackage.TestComponents.Listeners"/>
+
+</listeners>
+	<test thread-count="5" name="StandaloneTest_1">
+
+		<classes>
+
+			<class name="testPackage.Tests.StandaloneTest_1" />
+
+			<!-- <class name="testPackage.TestComponents.BaseTest"/> -->
+			<!-- <class name="testPackage.Tests.StandaloneTest_3"/> -->
+			<!-- <class name="testPackage.Tests.StandaloneTest_2"/> -->
+
+
+
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="StandaloneTest_2">
+
+		<classes>
+
+			<class name="testPackage.Tests.StandaloneTest_2" />
+
+		</classes>
+
+	</test> <!-- Test -->
+	
+	
+	<test thread-count="5" name="StandaloneTest_3">
+
+		<classes>
+
+			<class name="testPackage.Tests.StandaloneTest_3"/>
+
+		</classes>
+
+	</test> <!-- Test -->
+	
+	
+	
+	
+
+</suite> <!-- Suite -->
