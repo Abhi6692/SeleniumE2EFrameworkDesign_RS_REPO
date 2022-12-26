@@ -8,7 +8,6 @@
 <listener class-name="testPackage.TestComponents.Listeners"/>
 
 </listeners>
-
 	<test thread-count="5" name="StandaloneTest_1">
 
 		<classes>

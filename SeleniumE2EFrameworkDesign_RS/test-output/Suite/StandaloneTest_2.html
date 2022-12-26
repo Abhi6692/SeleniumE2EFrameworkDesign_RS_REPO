@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 16 16:13:27 IST 2022</td>
+<td>Started on:</td><td>Tue Dec 13 01:17:52 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14171 ms)</td>
+<tr><td>Total time:</td><td>19 seconds (19083 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,13 +80,14 @@ function toggleAllBoxes() {
 Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
 System info: host: &apos;DESKTOP-8CNA17E&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2ab082bdbfde3604bcfb188c3cb6a26f, get {url=https://rahulshettyacademy.com/client/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\OM\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57044/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2ab082bdbfde3604bcfb188c3cb6a26f
+Command: [223210418219e7492fcdcfa9277bcc2b, get {url=https://rahulshettyacademy.com/client/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\OM\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60665/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 223210418219e7492fcdcfa9277bcc2b
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
 	at automationProject.pageObjects.LoginPage.goTo(LoginPage.java:67)
-	at testPackage.TestComponents.BaseTest.launchApplication(BaseTest.java:59)
+	at testPackage.TestComponents.BaseTest.launchApplication(BaseTest.java:79)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
@@ -102,7 +103,7 @@ Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection re
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	... 19 more
+	... 26 more
 Caused by: java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
@@ -118,18 +119,18 @@ Caused by: java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	... 1 more
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace944608232", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace944608232'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2123686890", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2123686890'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
 System info: host: &apos;DESKTOP-8CNA17E&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2ab082bdbfde3604bcfb188c3cb6a26f, get {url=https://rahulshettyacademy.com/client/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\OM\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57044/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2ab082bdbfde3604bcfb188c3cb6a26f
+Command: [223210418219e7492fcdcfa9277bcc2b, get {url=https://rahulshettyacademy.com/client/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\OM\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60665/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 223210418219e7492fcdcfa9277bcc2b
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
 	at automationProject.pageObjects.LoginPage.goTo(LoginPage.java:67)
-	at testPackage.TestComponents.BaseTest.launchApplication(BaseTest.java:59)
+	at testPackage.TestComponents.BaseTest.launchApplication(BaseTest.java:79)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -143,6 +144,13 @@ Session ID: 2ab082bdbfde3604bcfb188c3cb6a26f
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
@@ -158,7 +166,7 @@ Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection re
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	... 19 more
+	... 26 more
 Caused by: java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
@@ -175,8 +183,8 @@ Caused by: java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	... 1 more
 </pre></div></td>
-<td>14</td>
-<td>testPackage.Tests.StandaloneTest_2@4716be8b</td></tr>
+<td>19</td>
+<td>testPackage.Tests.StandaloneTest_2@75e01201</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -189,7 +197,7 @@ Caused by: java.net.SocketException: Connection reset
 <td title='testPackage.Tests.StandaloneTest_2.tearDown()'><b>tearDown</b><br>Test class: testPackage.Tests.StandaloneTest_2</td>
 <td></td>
 <td>0</td>
-<td>testPackage.Tests.StandaloneTest_2@4716be8b</td></tr>
+<td>testPackage.Tests.StandaloneTest_2@75e01201</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -204,13 +212,14 @@ Caused by: java.net.SocketException: Connection reset
 Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
 System info: host: &apos;DESKTOP-8CNA17E&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2ab082bdbfde3604bcfb188c3cb6a26f, get {url=https://rahulshettyacademy.com/client/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\OM\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57044/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2ab082bdbfde3604bcfb188c3cb6a26f
+Command: [223210418219e7492fcdcfa9277bcc2b, get {url=https://rahulshettyacademy.com/client/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\OM\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60665/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 223210418219e7492fcdcfa9277bcc2b
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
 	at automationProject.pageObjects.LoginPage.goTo(LoginPage.java:67)
-	at testPackage.TestComponents.BaseTest.launchApplication(BaseTest.java:59)
+	at testPackage.TestComponents.BaseTest.launchApplication(BaseTest.java:79)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
@@ -226,7 +235,7 @@ Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection re
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	... 19 more
+	... 26 more
 Caused by: java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
@@ -242,18 +251,18 @@ Caused by: java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	... 1 more
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace833082826", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace833082826'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace747782089", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace747782089'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
 System info: host: &apos;DESKTOP-8CNA17E&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2ab082bdbfde3604bcfb188c3cb6a26f, get {url=https://rahulshettyacademy.com/client/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\OM\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57044/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 2ab082bdbfde3604bcfb188c3cb6a26f
+Command: [223210418219e7492fcdcfa9277bcc2b, get {url=https://rahulshettyacademy.com/client/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\OM\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60665/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 223210418219e7492fcdcfa9277bcc2b
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:571)
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
 	at automationProject.pageObjects.LoginPage.goTo(LoginPage.java:67)
-	at testPackage.TestComponents.BaseTest.launchApplication(BaseTest.java:59)
+	at testPackage.TestComponents.BaseTest.launchApplication(BaseTest.java:79)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -267,6 +276,13 @@ Session ID: 2ab082bdbfde3604bcfb188c3cb6a26f
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
@@ -282,7 +298,7 @@ Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection re
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-	... 19 more
+	... 26 more
 Caused by: java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
@@ -300,7 +316,7 @@ Caused by: java.net.SocketException: Connection reset
 	... 1 more
 </pre></div></td>
 <td>0</td>
-<td>testPackage.Tests.StandaloneTest_2@4716be8b</td></tr>
+<td>testPackage.Tests.StandaloneTest_2@75e01201</td></tr>
 </table><p>
 </body>
 </html>

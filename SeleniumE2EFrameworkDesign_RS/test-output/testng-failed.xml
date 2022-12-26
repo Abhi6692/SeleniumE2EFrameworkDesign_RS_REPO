@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testPackage.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="StandaloneTest_1(failed)">
     <classes>
-      <class name="testPackage.Tests.StandaloneTest_Parameterisation_DataProvider_4">
+      <class name="testPackage.Tests.StandaloneTest_1">
         <methods>
-          <include name="testMethod" invocation-numbers="0 1 1"/>
+          <include name="testMethod"/>
+          <include name="testMethod2"/>
+          <include name="testMethod3"/>
           <include name="tearDown"/>
           <include name="launchApplication"/>
         </methods>
-      </class> <!-- testPackage.Tests.StandaloneTest_Parameterisation_DataProvider_4 -->
+      </class> <!-- testPackage.Tests.StandaloneTest_1 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- StandaloneTest_1(failed) -->
+  <test thread-count="5" parallel="tests" name="StandaloneTest_2(failed)">
+    <classes>
+      <class name="testPackage.Tests.StandaloneTest_2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testMethod"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- testPackage.Tests.StandaloneTest_2 -->
+    </classes>
+  </test> <!-- StandaloneTest_2(failed) -->
+  <test thread-count="5" parallel="tests" name="StandaloneTest_3(failed)">
+    <classes>
+      <class name="testPackage.Tests.StandaloneTest_3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testMethod"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- testPackage.Tests.StandaloneTest_3 -->
+    </classes>
+  </test> <!-- StandaloneTest_3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
